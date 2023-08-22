@@ -174,3 +174,8 @@ acepta1.onclick = aceptaGasto1;
 acepta2.onclick = aceptaGasto2;
 acepta3.onclick = aceptaGasto3;
 acepta4.onclick = aceptaGasto4;
+
+acepta1.onclick = aceptaGasto1;
+acepta2.onclick = aceptaGasto2;
+acepta3.onclick = aceptaGasto3;
+acepta4.onclick = aceptaGasto4;
