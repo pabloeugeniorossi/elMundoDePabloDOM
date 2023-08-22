@@ -1,0 +1,92 @@
+body {
+    background-color: #FECD45;
+    color: black;
+    opacity: 1;
+}
+
+p {
+    font-size: large;
+}
+
+nav {
+    text-align: left;
+    background-color: #FECD45;
+    color: black;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+header h1 span{
+    color: #2568fb;
+}
+
+.mainContent {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    clear: left; 
+    background-color: #2568fb;
+    color: antiquewhite;
+    padding-bottom: 50px;
+}
+
+.content {
+    margin: 20px;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+#cuidarLaTierra {
+    border-color: #F4DB7D;
+    background-color: #1A2238;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cuidarLaTierra #cuidar {
+    color: #9DAAF2;
+}
+
+#cuidarLaTierra #tierra {
+    color: #FF6A3D;
+}
+
+#espacio {
+    border-color: #1BA098;
+    background-color: #051622;
+    color: #DEB992;
+    font-family: "MS Gothic";
+    font-weight: bold;
+}
+
+#miSecretario {
+    border-color: #000000;
+    background-color: #A0AECD;
+    color: #000000;
+    font-family: "Book Antiqua";
+}
+
+#tools {
+    background-color: #00ABE1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#tools span {
+    color: #161F6D;
+}
+
+#deportes {
+    border-color: #D6A3FB;
+    background-color: #ABF62D;
+    color: #000000;
+    font-family: "Arial Black";
+}
