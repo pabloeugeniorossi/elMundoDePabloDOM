@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+        <title>cuanto debe</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="cuantoDebo.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>Login</li>
+                <li>Registrate!</li>
+            </ul>
+        </nav>
+        <header>
+            <h1>Cuanto debe cada uno</h1>
+            <h3>Calculador para ver cuanta plata tiene que poner cada uno para el asado o cualquier evento, segun quien puso en el grupo y cuanto</h6>
+        </header>
+        <div>
+            <label for="amigo">cargar amigo</label>
+            <input type="text" name="sumarAmigo" id="amigo">
+            <input type="button" value="Aceptar" id="aceptar">
+        </div>
+        <div class="cantidadDeAmigos">
+            <h3>Cuantos somos?</h3>
+            <p id="cantidadDeAmigos"></p>
+        </div>
+        <div class="total">
+            <h3>Total de gastos</h3>
+            <p id="total">0</p>
+        </div>
+        <div id="detalle">
+            <ul>
+                <div id="amigo1Div">
+                    <h4 id="amigo1" class="amigo1"></h4>
+                    <p class="amigo1">puso</p>
+                    <p id="saldo1" class="amigo1">0</p>
+                    <input type="button" value="Cargar gastos" id="carga1">
+                    <input type="number" value="0" id="input1">
+                    <input type="button" value="Aceptar" id="acepta1">
+                </div>
+                <div id="amigo2Div">
+                    <h4 id="amigo2" class="amigo2"></h4>
+                    <p class="amigo2">puso</p>
+                    <p id="saldo2" class="amigo2">0</p>
+                    <input type="button" value="Cargar gastos" id="carga2">
+                    <input type="number" value="0" id="input2">
+                    <input type="button" value="Aceptar" id="acepta2">
+                </div>
+                <div id="amigo3Div">
+                    <h4 id="amigo3" class="amigo3"></h4>
+                    <p class="amigo3">puso</p>
+                    <p id="saldo3" class="amigo3">0</p>
+                    <input type="button" value="Cargar gastos" id="carga3">
+                    <input type="number" value="0" id="input3">
+                    <input type="button" value="Aceptar" id="acepta3">
+                </div>
+                <div id="amigo4Div">
+                    <h4 id="amigo4" class="amigo4"></h4>
+                    <p class="amigo4">puso</p>
+                    <p id="saldo4" class="amigo4">0</p>
+                    <input type="button" value="Cargar gastos" id="carga4">
+                    <input type="number" value="0" id="input4">
+                    <input type="button" value="Aceptar" id="acepta4">
+                </div>
+            </ul>
+        </div>
+    </body>
+</html>
