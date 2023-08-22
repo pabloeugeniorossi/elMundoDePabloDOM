@@ -4,39 +4,67 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
-        <title>El mundo de Pablo unlogged main page</title>
+        <title>cuanto debe</title>
         <link href="style.css" rel="stylesheet">
+        <script src="cuantoDebo.js" defer></script>
     </head>
     <body>
-        <nav>
-            <a id="login" target="_blank" class="link-externo"><p>Login</p></a>
-            <a id="registro" target="_blank" class="link-externo"><p>Registrate!</p></a>
-        </nav>
         <header>
-            <h1>El Mundo de <span>Pablo</span></h1>
-            <h3>    </h3>
+            <h1>Cuanto debe cada uno</h1>
+            <h3>Calculador para ver cuanta plata tiene que poner cada uno para el asado o cualquier evento, segun quien puso en el grupo y cuanto</h6>
         </header>
-            <div class="mainContent">
-                <a>
-                    <div class="content" id="cuidarLaTierra">    
-                        <h3><span id="cuidar">Cuidar</span> la <span id="tierra">Tierra</span></h3>
-                    </div>
-                </a>
-                <a>
-                    <div class="content" id="espacio">
-                        <h3>El Espacio</h3>
-                    </div>
-                </a>
-                <div class="content" id="miSecretario">
-                    <h3>Mi Secretario</h3>
+        
+        <div class="main">
+            <div>
+                <h3>Carga aqui a tus amigos y cuanto puso cada uno</h3>
+                <label for="amigo">cargar amigo</label>
+                <input type="text" name="sumarAmigo" id="amigo">
+                <input type="button" value="Aceptar" id="aceptar">
+            </div>
+            <ul>
+                <div id="amigo1Div">
+                    <h4 id="amigo1" class="amigo1"></h4>
+                    <p class="amigo1">puso</p>
+                    <p id="saldo1" class="amigo1">0</p>
+                    <input type="button" value="Cargar gastos" id="carga1">
+                    <input type="number" value="0" id="input1">
+                    <input type="button" value="Aceptar" id="acepta1">
                 </div>
-                <a href="file:///C:/Pablo/Programacion/Visual%20Code%20Projects/El%20Mundo%20de%20Pablo/Sandbox/tools/index.html" target="_blank">
-                    <div class="content" id="tools">
-                        <h3>Algunas <span>Tools</span></h3>
-                    </div>
-                </a>
-                <div class="content" id="deportes">
-                    <h3>El Deportivo</h3>
+                <div id="amigo2Div">
+                    <h4 id="amigo2" class="amigo2"></h4>
+                    <p class="amigo2">puso</p>
+                    <p id="saldo2" class="amigo2">0</p>
+                    <input type="button" value="Cargar gastos" id="carga2">
+                    <input type="number" value="0" id="input2">
+                    <input type="button" value="Aceptar" id="acepta2">
                 </div>
+                <div id="amigo3Div">
+                    <h4 id="amigo3" class="amigo3"></h4>
+                    <p class="amigo3">puso</p>
+                    <p id="saldo3" class="amigo3">0</p>
+                    <input type="button" value="Cargar gastos" id="carga3">
+                    <input type="number" value="0" id="input3">
+                    <input type="button" value="Aceptar" id="acepta3">
+                </div>
+                <div id="amigo4Div">
+                    <h4 id="amigo4" class="amigo4"></h4>
+                    <p class="amigo4">puso</p>
+                    <p id="saldo4" class="amigo4">0</p>
+                    <input type="button" value="Cargar gastos" id="carga4">
+                    <input type="number" value="0" id="input4">
+                    <input type="button" value="Aceptar" id="acepta4">
+                </div>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="cantidadDeAmigos">
+                <h3>Cuantos somos?</h3>
+                <p id="cantidadDeAmigos"></p>
+            </div>
+            <div class="total">
+                <h3>Total de gastos</h3>
+                <p id="total">0</p>
+            </div>
+        </div>
     </body>
 </html>
