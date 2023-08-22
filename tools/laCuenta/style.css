@@ -1,0 +1,35 @@
+body {
+    background-color: #FECD45;
+}
+
+#amigo1Div {
+    display: none;
+}
+
+#amigo2Div {
+    display: none;
+}
+
+#amigo3Div {
+    display: none;
+}
+
+#amigo4Div {
+    display: none;
+}
+
+.amigo1 {
+    display: inline-block;
+}
+
+.amigo2 {
+    display: inline-block;
+}
+
+.amigo3 {
+    display: inline-block;
+}
+
+.amigo4 {
+    display: inline-block;
+}
