@@ -1,1 +1,43 @@
+body {
+    background-color: #F5F5F5;
+    color: #000000;
+    font-family: "Florence";
+}
 
+.main {
+    display: inline-block;
+    border: 3px solid #4D724D;
+    padding: 10px 50px 10px 50px;
+}
+
+#amigo1Div {
+    display: none;
+}
+
+#amigo2Div {
+    display: none;
+}
+
+#amigo3Div {
+    display: none;
+}
+
+#amigo4Div {
+    display: none;
+}
+
+.amigo1 {
+    display: inline-block;
+}
+
+.amigo2 {
+    display: inline-block;
+}
+
+.amigo3 {
+    display: inline-block;
+}
+
+.amigo4 {
+    display: inline-block;
+}
