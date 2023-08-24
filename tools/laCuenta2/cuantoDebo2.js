@@ -22,7 +22,6 @@ const amigoC10 = new Amigo("amigoC10",0,10);
 const amigoC11 = new Amigo("amigoC11",0,11);
 const amigoC12 = new Amigo("amigoC12",0,12);
 
-
 let cantidadDeAmigos = document.getElementById("cantidadDeAmigos")
 
 let nuevoAmigo = document.getElementById("amigo");
