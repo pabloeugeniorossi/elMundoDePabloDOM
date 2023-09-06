@@ -26,38 +26,6 @@ body {
     display: none;
 }
 
-#amigo5Div {
-    display: none;
-}
-
-#amigo6Div {
-    display: none;
-}
-
-#amigo7Div {
-    display: none;
-}
-
-#amigo8Div {
-    display: none;
-}
-
-#amigo9Div {
-    display: none;
-}
-
-#amigo10Div {
-    display: none;
-}
-
-#amigo11Div {
-    display: none;
-}
-
-#amigo12Div {
-    display: none;
-}
-
 .amigo1 {
     display: inline-block;
 }
@@ -71,37 +39,5 @@ body {
 }
 
 .amigo4 {
-    display: inline-block;
-}
-
-.amigo5 {
-    display: inline-block;
-}
-
-.amigo6 {
-    display: inline-block;
-}
-
-.amigo7 {
-    display: inline-block;
-}
-
-.amigo8 {
-    display: inline-block;
-}
-
-.amigo9 {
-    display: inline-block;
-}
-
-.amigo10 {
-    display: inline-block;
-}
-
-.amigo11 {
-    display: inline-block;
-}
-
-.amigo12 {
     display: inline-block;
 }
