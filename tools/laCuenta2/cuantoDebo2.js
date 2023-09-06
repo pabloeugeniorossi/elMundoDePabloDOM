@@ -13,6 +13,7 @@ const amigoC1 = new Amigo("amigoC1",0,1);
 const amigoC2 = new Amigo("amigoC2",0,2);
 const amigoC3 = new Amigo("amigoC3",0,3);
 const amigoC4 = new Amigo("amigoC4",0,4);
+const amigoC5 = new Amigo("amigoC5",0,5);
 
 let cantidadDeAmigos = document.getElementById("cantidadDeAmigos")
 
@@ -24,31 +25,37 @@ const amigo1 = document.getElementById("amigo1");
 const amigo2 = document.getElementById("amigo2");
 const amigo3 = document.getElementById("amigo3");
 const amigo4 = document.getElementById("amigo4");
+const amigo5 = document.getElementById("amigo5");
 
 const amigo1Div = document.getElementById("amigo1Div");
 const amigo2Div = document.getElementById("amigo2Div");
 const amigo3Div = document.getElementById("amigo3Div");
 const amigo4Div = document.getElementById("amigo4Div");
+const amigo5Div = document.getElementById("amigo5Div");
 
 const input1 = document.getElementById("input1");
 const input2 = document.getElementById("input2");
 const input3 = document.getElementById("input3");
 const input4 = document.getElementById("input4");
+const input5 = document.getElementById("input5");
 
 const acepta1 = document.getElementById("acepta1");
 const acepta2 = document.getElementById("acepta2");
 const acepta3 = document.getElementById("acepta3");
 const acepta4 = document.getElementById("acepta4");
+const acepta5 = document.getElementById("acepta5");
 
 const saldo1 = document.getElementById("saldo1");
 const saldo2 = document.getElementById("saldo2");
 const saldo3 = document.getElementById("saldo3");
 const saldo4 = document.getElementById("saldo4");
+const saldo5 = document.getElementById("saldo5");
 
 const carga1 = document.getElementById("carga1");
 const carga2 = document.getElementById("carga2");
 const carga3 = document.getElementById("carga3");
 const carga4 = document.getElementById("carga4");
+const carga5 = document.getElementById("carga5");
 
 function agregarAmigo() {
     amigos.push(nuevoAmigo.value.trim());
@@ -79,6 +86,11 @@ function agregarAmigo() {
         amigo4Div.style.display = "block";
         input4.style.display = "none";
         acepta4.style.display = "none";
+    };
+    if (amigos.length === 5) {
+        amigo5Div.style.display = "block";
+        input5.style.display = "none";
+        acepta5.style.display = "none";
     };   
     cantidadDeAmigos.innerHTML = amigos.length;
     };
@@ -109,6 +121,13 @@ function cargaGasto4() {
     acepta4.style.display = "inline-block";
     saldo4.style.display = "none";
     carga4.style.display = "none";
+    };
+
+function cargaGasto5() {
+    input5.style.display = "inline-block";
+    acepta5.style.display = "inline-block";
+    saldo5.style.display = "none";
+    carga5.style.display = "none";
     };
 
 function aceptaGasto1() {
@@ -163,14 +182,29 @@ function aceptaGasto4() {
     carga4.value = "Modificar";
     };
 
+function aceptaGasto5() {
+    amigoC5.aporte = Number(input5.value);
+    saldo5.innerHTML = amigoC5.aporte;
+    const aporteTotal = amigoC1.aporte + amigoC2.aporte + amigoC3.aporte + amigoC4.aporte + amigoC5.aporte;
+    const total = document.getElementById("total");
+    total.innerHTML = aporteTotal;
+    input5.style.display = "none";
+    acepta5.style.display = "none";
+    saldo5.style.display = "inline-block";
+    carga5.style.display = "inline-block";
+    carga5.value = "Modificar";
+    };
+
 ingresarAmigo.onclick = agregarAmigo;
 
 carga1.onclick = cargaGasto1;
 carga2.onclick = cargaGasto2;
 carga3.onclick = cargaGasto3;
 carga4.onclick = cargaGasto4;
+carga5.onclick = cargaGasto5;
 
 acepta1.onclick = aceptaGasto1;
 acepta2.onclick = aceptaGasto2;
 acepta3.onclick = aceptaGasto3;
 acepta4.onclick = aceptaGasto4;
+acepta5.onclick = aceptaGasto5;
