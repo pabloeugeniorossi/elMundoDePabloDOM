@@ -26,6 +26,10 @@ body {
     display: none;
 }
 
+#amigo5Div {
+    display: none;
+}
+
 .amigo1 {
     display: inline-block;
 }
@@ -39,5 +43,9 @@ body {
 }
 
 .amigo4 {
+    display: inline-block;
+}
+
+.amigo5 {
     display: inline-block;
 }
